@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eG2VGVI3R/SkhsCKPVBajNfk3WYC8eERCBzcI0oUGS/iGtNUC7L3Js2Oz/GLf3a2g5QZEdvNBqlKMSwarfX93g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aleksandre\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

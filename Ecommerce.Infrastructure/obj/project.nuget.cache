@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "TGR+NiZubdTJV17UXoaVnU9NdEtJU9tfgQ+TZij7VhGMEhNU/SGEPQYIFBEUesaD6ndHtB7dA+CkYG1DH7xvmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aleksandre\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
+    "C:\\Users\\Aleksandre\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Aleksandre\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
+    "C:\\Users\\Aleksandre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

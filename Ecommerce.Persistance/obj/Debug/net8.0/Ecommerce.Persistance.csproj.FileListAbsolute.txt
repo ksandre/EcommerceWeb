@@ -1,0 +1,17 @@
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\bin\Debug\net8.0\Ecommerce.Persistance.deps.json
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\bin\Debug\net8.0\Ecommerce.Persistance.runtimeconfig.json
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\bin\Debug\net8.0\Ecommerce.Persistance.dll
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\bin\Debug\net8.0\Ecommerce.Persistance.pdb
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\bin\Debug\net8.0\Ecommerce.Domain.dll
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\bin\Debug\net8.0\Ecommerce.Domain.pdb
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\obj\Debug\net8.0\Ecommerce.Persistance.csproj.AssemblyReference.cache
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\obj\Debug\net8.0\Ecommerce.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\obj\Debug\net8.0\Ecommerce.Persistance.AssemblyInfoInputs.cache
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\obj\Debug\net8.0\Ecommerce.Persistance.AssemblyInfo.cs
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\obj\Debug\net8.0\Ecommerce.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\obj\Debug\net8.0\Ecommerce.Persistance.csproj.CopyComplete
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\obj\Debug\net8.0\Ecommerce.Persistance.dll
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\obj\Debug\net8.0\refint\Ecommerce.Persistance.dll
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\obj\Debug\net8.0\Ecommerce.Persistance.pdb
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\obj\Debug\net8.0\Ecommerce.Persistance.genruntimeconfig.cache
+C:\Users\Aleksandre\source\repos\Ecommerce.Persistance\obj\Debug\net8.0\ref\Ecommerce.Persistance.dll
