@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TGR+NiZubdTJV17UXoaVnU9NdEtJU9tfgQ+TZij7VhGMEhNU/SGEPQYIFBEUesaD6ndHtB7dA+CkYG1DH7xvmw==",
+  "dgSpecHash": "9/bp27KApsKJkNNpNUFfrZ+hlMXZTducPrY2rRMlTb+cCBcymBEHaAT67nzyPCc3M7X23txFHPPU7ymVxt0y7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aleksandre\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
     "C:\\Users\\Aleksandre\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

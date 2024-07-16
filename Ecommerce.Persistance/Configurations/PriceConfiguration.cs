@@ -20,32 +20,42 @@ public class PriceConfiguration : IEntityTypeConfiguration<Price>
         builder
             .HasOne(p => p.Product)
             .WithOne(p => p.Price)
-            .HasForeignKey<Product>(c => c.ProductId);
+            .HasForeignKey<Price>(c => c.ProductId);
         builder
             .HasOne(p => p.Color)
             .WithOne(p => p.Price)
-            .HasForeignKey<Color>(c => c.ColorId);
+            .HasForeignKey<Price>(c => c.ColorId);
         builder
             .HasOne(p => p.Size)
             .WithOne(p => p.Price)
-            .HasForeignKey<Size>(c => c.SizeId);
+            .HasForeignKey<Price>(c => c.SizeId); // Has Forign Key Inside Price
 
         // Data for Colors
-        //var prices = new List<Price>()
-        //{
-        //    new Price()
-        //    {
-        //        PriceId = 7,
-        //        ProductId = 260,
-        //        ColorId = 62,
-        //        SizeId = 1,
-        //        MaxQuantity = 2,
-        //        InitialPrice = 12.25M,
-        //        DiscountPrice = 8.75M
-        //    }
-        //};
+        var prices = new List<Price>()
+        {
+            new Price()
+            {
+                PriceId = 7,
+                MaxQuantity = 2,
+                InitialPrice = 12.25M,
+                DiscountPrice = 8.75M,
+                ProductId = 260,
+                SizeId = 1,
+                ColorId = 13,
+            },
+            new Price()
+            {
+                PriceId = 8,
+                MaxQuantity = 5,
+                InitialPrice = 32.25M,
+                DiscountPrice = 7.75M,
+                ProductId = 261,
+                SizeId = null,
+                ColorId = 14,
+            }
+        };
 
         // Seed colors to database
-        //builder.HasData(prices);
+        builder.HasData(prices);
     }
 }

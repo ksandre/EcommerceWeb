@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eG2VGVI3R/SkhsCKPVBajNfk3WYC8eERCBzcI0oUGS/iGtNUC7L3Js2Oz/GLf3a2g5QZEdvNBqlKMSwarfX93g==",
+  "dgSpecHash": "JZos1iGiMhkGki4Lo17EfA1cCRDtPl+LU77TSMyUf7qk6Qn4wbjTZnp6sq+399EnxftDOCb3x1UHiKCCg2I1og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aleksandre\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512"
   ],

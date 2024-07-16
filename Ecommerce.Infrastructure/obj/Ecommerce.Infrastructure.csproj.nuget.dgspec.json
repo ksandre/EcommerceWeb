@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj": {}
+    "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Application\\Ecommerce.Application.csproj": {
+    "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Application\\Ecommerce.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Application\\Ecommerce.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Application\\Ecommerce.Application.csproj",
         "projectName": "Ecommerce.Application",
-        "projectPath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Application\\Ecommerce.Application.csproj",
+        "projectPath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Application\\Ecommerce.Application.csproj",
         "packagesPath": "C:\\Users\\Aleksandre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Application\\obj\\",
+        "outputPath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aleksandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
-                "projectPath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
+              "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+                "projectPath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Domain\\Ecommerce.Domain.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
+    "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Domain\\Ecommerce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
         "projectName": "Ecommerce.Domain",
-        "projectPath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+        "projectPath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
         "packagesPath": "C:\\Users\\Aleksandre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aleksandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj": {
+    "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj",
         "projectName": "Ecommerce.Infrastructure",
-        "projectPath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Aleksandre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aleksandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,8 +154,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Application\\Ecommerce.Application.csproj": {
-                "projectPath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Application\\Ecommerce.Application.csproj"
+              "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Application\\Ecommerce.Application.csproj": {
+                "projectPath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Application\\Ecommerce.Application.csproj"
               }
             }
           }

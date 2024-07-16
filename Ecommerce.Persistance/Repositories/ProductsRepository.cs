@@ -14,9 +14,10 @@ public class ProductsRepository : GenericRepository<Product>, IProductsRepositor
     public async Task<List<Product>> GetProductsWithDetails()
     {
         var products = await _context.Products
-
+                .Include(p => p.Price)
                 .Include(p => p.Size)
-                
+                .ThenInclude(c => c.Colors)
+                .ThenInclude(m => m.Media)
                             .ToListAsync();
 
         return products;

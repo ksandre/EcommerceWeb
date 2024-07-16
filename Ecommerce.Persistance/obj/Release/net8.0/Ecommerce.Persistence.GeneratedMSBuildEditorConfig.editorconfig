@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ecommerce.Persistence
-build_property.ProjectDir = C:\Users\Aleksandre\source\repos\Ecommerce-api\Ecommerce.Persistance\
+build_property.ProjectDir = C:\Users\Aleksandre\Documents\EcommerceWeb\Ecommerce.Persistance\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

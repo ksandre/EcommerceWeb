@@ -9,10 +9,7 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
     public void Configure(EntityTypeBuilder<Product> builder)
     {
         builder.HasKey(p => p.ProductId);
-        builder
-            .HasOne(s => s.Price)
-            .WithOne(s => s.Product)
-            .HasForeignKey<Price>(s => s.PriceId);
+
         // Data for Products
         var products = new List<Product>()
         {
@@ -23,7 +20,16 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
                 Slug = "peptalk-lipstick-bullet-refill",
                 SubCategorySlug = "lips",
                 CategorySlug = "makeup",
-                Description = "ეს ტუჩსაცხი გამორჩეულია დამატენიანებელი მოქმედებით და მდგრადობით."
+                Description = "ეს ტუჩსაცხი გამორჩეულია დამატენიანებელი მოქმედებით და მდგრადობით.",
+            },
+            new Product()
+            {
+                ProductId = 261,
+                Name = "Swipe It ტუჩის დამატენიანებელი ბალზამი",
+                Slug = "swipe-it-moisturising-lip-balm",
+                SubCategorySlug = "lips",
+                CategorySlug = "makeup",
+                Description = "ეს ბალზამი შექმნილია 95%  დამატენიანებელი ინგრედიენტებით, მათ შორის შის კარაქით, განადან.",
             },
         };
 

@@ -10,10 +10,10 @@ public class ColorConfiguration : IEntityTypeConfiguration<Color>
     public void Configure(EntityTypeBuilder<Color> builder)
     {
         builder.HasKey(c => c.ColorId);
-        builder
-            .HasOne(s => s.Price)
-            .WithOne(s => s.Color)
-            .HasForeignKey<Price>(s => s.PriceId);
+        //builder
+        //    .HasOne(s => s.Price)
+        //    .WithOne(s => s.Color)
+        //    .HasForeignKey<Price>(s => s.PriceId);
         builder
             .HasOne(m => m.Size)
             .WithMany(m => m.Colors)
@@ -21,18 +21,25 @@ public class ColorConfiguration : IEntityTypeConfiguration<Color>
             .OnDelete(DeleteBehavior.NoAction);
 
         // Data for Colors
-        //var colors = new List<Color>()
-        //{
-        //    new Color()
-        //    {
-        //        ColorId = 62,
-        //        Name = "Cherry",
-        //        Hex= "#ff0000",
-        //        SizeId = 1,
-        //    }
-        //};
+        var colors = new List<Color>()
+        {
+            new Color()
+            {
+                ColorId = 13,
+                Name = "Cherry",
+                Hex= "#ff0000",
+                SizeId = 1
+            },
+            new Color()
+            {
+                ColorId = 14,
+                Name = "Violet",
+                Hex= "#cc7700",
+                SizeId = 2
+            }
+        };
 
         // Seed colors to database
-        //builder.HasData(colors);
+        builder.HasData(colors);
     }
 }

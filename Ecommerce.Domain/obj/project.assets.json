@@ -45,11 +45,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
       "projectName": "Ecommerce.Domain",
-      "projectPath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
+      "projectPath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Domain\\Ecommerce.Domain.csproj",
       "packagesPath": "C:\\Users\\Aleksandre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aleksandre\\source\\repos\\Ecommerce-api\\Ecommerce.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aleksandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
