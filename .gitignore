@@ -361,3 +361,23 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/.vs/EcommerceWeb/v17/.suo
+/Ecommerce.Api/obj/Debug/net8.0/apphost.exe
+/Ecommerce.Api/obj/Debug/net8.0/Ecommerce.Api.AssemblyInfo.cs
+/Ecommerce.Api/obj/Debug/net8.0/Ecommerce.Api.AssemblyInfoInputs.cache
+/Ecommerce.Api/obj/Debug/net8.0/Ecommerce.Api.csproj.AssemblyReference.cache
+/Ecommerce.Api/obj/Debug/net8.0/Ecommerce.Api.csproj.FileListAbsolute.txt
+/Ecommerce.Application/obj/Debug/net8.0/Ecommerce.Application.AssemblyInfo.cs
+/Ecommerce.Application/obj/Debug/net8.0/Ecommerce.Application.AssemblyInfoInputs.cache
+/Ecommerce.Application/obj/Debug/net8.0/Ecommerce.Application.csproj.AssemblyReference.cache
+/Ecommerce.Application/obj/Debug/net8.0/Ecommerce.Application.csproj.FileListAbsolute.txt
+/Ecommerce.Domain/obj/Debug/net8.0/Ecommerce.Domain.AssemblyInfoInputs.cache
+/Ecommerce.Domain/obj/Debug/net8.0/Ecommerce.Domain.AssemblyInfo.cs
+/Ecommerce.Domain/obj/Debug/net8.0/Ecommerce.Domain.csproj.FileListAbsolute.txt
+/Ecommerce.Infrastructure/obj/Debug/net8.0/Ecommerce.Infrastructure.AssemblyInfo.cs
+/Ecommerce.Infrastructure/obj/Debug/net8.0/Ecommerce.Infrastructure.AssemblyInfoInputs.cache
+/Ecommerce.Infrastructure/obj/Debug/net8.0/Ecommerce.Infrastructure.csproj.AssemblyReference.cache
+/Ecommerce.Persistance/obj/Debug/net8.0/Ecommerce.Persistence.AssemblyInfoInputs.cache
+/Ecommerce.Persistance/obj/Debug/net8.0/Ecommerce.Persistence.AssemblyInfo.cs
+/Ecommerce.Persistance/obj/Debug/net8.0/Ecommerce.Persistence.csproj.AssemblyReference.cache
+/Ecommerce.Persistance/obj/Debug/net8.0/Ecommerce.Persistence.csproj.FileListAbsolute.txt
