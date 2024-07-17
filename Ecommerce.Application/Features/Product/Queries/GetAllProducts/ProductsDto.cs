@@ -1,13 +1,8 @@
 ﻿using Ecommerce.Domain.Product;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ecommerce.Application.Features.Currency.Queries.GetAllProducts;
 
-public class ProductsDto
+public class ProductDto
 {
     public int ProductId { get; set; }
     public string Name { get; set; }
@@ -15,5 +10,6 @@ public class ProductsDto
     public string SubCategorySlug { get; set; }
     public string CategorySlug { get; set; }
     public string Description { get; set; }
-    public List<Size>? Size { get; set; }
+    public PriceDto? Price { get; set; }
+    public List<SizeDto>? Size { get; set; }
 }

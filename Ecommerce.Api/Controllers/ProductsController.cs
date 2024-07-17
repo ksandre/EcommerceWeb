@@ -19,7 +19,7 @@ namespace Ecommerce.Controllers
 
         // GET: api/<ProductsController>
         [HttpGet]
-        public async Task<List<Product>> GetAllProducts()
+        public async Task<List<ProductDto>> GetAllProducts()
         {
             var products = await _mediator.Send(new GetProductsQuery());
             return products;

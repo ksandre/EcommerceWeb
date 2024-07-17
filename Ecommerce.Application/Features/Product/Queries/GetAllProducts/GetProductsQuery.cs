@@ -3,4 +3,4 @@ using Ecommerce.Domain.Product;
 
 namespace Ecommerce.Application.Features.Currency.Queries.GetAllProducts;
 
-public record GetProductsQuery : IRequest<List<Ecommerce.Domain.Product.Product>>;
+public record GetProductsQuery : IRequest<List<ProductDto>>;
