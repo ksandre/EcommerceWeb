@@ -412,3 +412,7 @@ FodyWeavers.xsd
 /Ecommerce.Infrastructure/obj/Release/net8.0/Ecommerce.Infrastructure.csproj.AssemblyReference.cache
 /Ecommerce.Persistance/obj/Release/net8.0/Ecommerce.Persistence.AssemblyInfo.cs
 /Ecommerce.Persistance/obj/Release/net8.0/Ecommerce.Persistence.AssemblyInfoInputs.cache
+/.vs/EcommerceWeb/DesignTimeBuild/.dtbcache.v2
+/.vs/EcommerceWeb/v17/.futdcache.v2
+/.vs/ProjectEvaluation/ecommerceweb.metadata.v7.bin
+/.vs/ProjectEvaluation/ecommerceweb.projects.v7.bin
