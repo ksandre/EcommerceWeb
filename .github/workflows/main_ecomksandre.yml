@@ -30,8 +30,8 @@ jobs:
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
-          name: Ecommerce.Api
-          path: ${{env.DOTNET_ROOT}}/Ecommerce.Api
+          name: .net-app
+          path: ${{env.DOTNET_ROOT}}
 
   deploy:
     runs-on: windows-latest
