@@ -6,7 +6,7 @@ using Ecommerce.Application.Features.Product.Queries.Shared;
 
 namespace Ecommerce.Application.Features.Product.Commands.CreateProduct;
 
-public class CreateProductRequestHandler : IRequestHandler<CreateProductRequest, Unit>
+public class CreateProductRequestHandler : IRequestHandler<CreateProductRequest, int>
 {
     private readonly IProductsRepository _productsRepository;
     public CreateProductRequestHandler(IProductsRepository productsRepository)
@@ -14,9 +14,9 @@ public class CreateProductRequestHandler : IRequestHandler<CreateProductRequest,
         _productsRepository = productsRepository;
     }
 
-    public async Task<Unit> Handle(CreateProductRequest request, CancellationToken cancellationToken)
+    public async Task<int> Handle(CreateProductRequest request, CancellationToken cancellationToken)
     {
-        await _productsRepository.CreateAsync(new Domain.Product.Product()
+        var entity = await _productsRepository.CreateAsync(new Domain.Product.Product()
         {
             Name = request.Name,
             Slug = request.Slug,
@@ -62,6 +62,6 @@ public class CreateProductRequestHandler : IRequestHandler<CreateProductRequest,
                 }).ToList() : null
         });
 
-        return Unit.Value;
+        return entity.ProductId;
     }
 }

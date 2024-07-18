@@ -38,10 +38,10 @@ namespace Ecommerce.Controllers
 
         // POST api/<ProductsController>
         [HttpPost("[action]")]
-        public async Task<ActionResult> AddProduct(CreateProductRequest createProductRequest)
+        public async Task<CreatedAtActionResult> AddProduct(CreateProductRequest createProductRequest)
         {
-            var response = await _mediator.Send(createProductRequest);
-            return CreatedAtAction(nameof(GetProduct), new { productId = response });
+            var entityProductId = await _mediator.Send(createProductRequest);
+            return CreatedAtAction(nameof(GetProduct), new { productId = entityProductId }, createProductRequest);
         }
 
         [HttpPost("[action]")]

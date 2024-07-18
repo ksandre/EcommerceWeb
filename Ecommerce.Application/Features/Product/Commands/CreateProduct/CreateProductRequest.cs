@@ -6,7 +6,7 @@ using Ecommerce.Application.Features.Product.Commands.CreatePrice;
 
 namespace Ecommerce.Application.Features.Product.Commands.CreateProduct;
 
-public class CreateProductRequest : IRequest<Unit> {
+public class CreateProductRequest : IRequest<int> {
     public string Name { get; set; }
     public string Slug { get; set; }
     public string SubCategorySlug { get; set; }
