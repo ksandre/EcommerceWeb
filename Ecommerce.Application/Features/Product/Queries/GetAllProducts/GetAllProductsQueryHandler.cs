@@ -1,22 +1,23 @@
 ﻿using Ecommerce.Application.Contracts.Persistence;
-using Ecommerce.Application.Features.Currency.Queries.GetAllProducts;
+using Ecommerce.Application.Features.Product.Queries.GetAllProducts;
+using Ecommerce.Application.Features.Product.Queries.Shared;
 using Ecommerce.Domain.Product;
 using MediatR;
 
 namespace Ecommerce.Application.Features.Product.Queries.GetAllProducts;
 
-public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, List<ProductDto>>
+public class GetAllProductsQueryHandler : IRequestHandler<GetAllProductsQuery, List<ProductDto>>
 {
     private readonly IProductsRepository _productsRepository;
 
-    public GetProductsQueryHandler(IProductsRepository productsRepository)
+    public GetAllProductsQueryHandler(IProductsRepository productsRepository)
     {
         _productsRepository = productsRepository;
     }
 
-    public async Task<List<ProductDto>> Handle(GetProductsQuery request, CancellationToken cancellationToken)
+    public async Task<List<ProductDto>> Handle(GetAllProductsQuery request, CancellationToken cancellationToken)
     {
-        var products = await _productsRepository.GetProductsWithDetails();
+        var products = await _productsRepository.GetAllProducts();
 
         var result = products
             .Select(p => new ProductDto()
@@ -68,7 +69,7 @@ public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, List<Pr
                         {
                             MediaId = m.MediaId,
                             Priority = m.Priority,
-                            Type = (Currency.Queries.GetAllProducts.MediaType)m.Type,
+                            Type = (Shared.MediaType)m.Type,
                             Url = m.Url,
                         }).ToList() : null
                     }).ToList() : null,

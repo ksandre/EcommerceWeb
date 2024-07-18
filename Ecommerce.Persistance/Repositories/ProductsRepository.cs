@@ -11,15 +11,26 @@ public class ProductsRepository : GenericRepository<Product>, IProductsRepositor
     {
     }
 
-    public async Task<List<Product>> GetProductsWithDetails()
+    public async Task<List<Product>> GetAllProducts()
     {
         var products = await _context.Products
                 .Include(p => p.Price)
-                .Include(p => p.Size)
+                .Include(s => s.Size)
                 .ThenInclude(c => c.Colors)
                 .ThenInclude(m => m.Media)
                             .ToListAsync();
 
         return products;
+    }
+
+    public async Task<Product> GetProductById(int productId)
+    {
+        var product = await _context.Products
+                .Include(p => p.Price)
+                .Include(s => s.Size)
+                .ThenInclude(c => c.Colors)
+                .ThenInclude(m => m.Media)
+                            .FirstOrDefaultAsync(q => q.ProductId == productId);
+        return product;
     }
 }

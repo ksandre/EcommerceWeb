@@ -9,5 +9,6 @@ namespace Ecommerce.Application.Contracts.Persistence;
 
 public interface IProductsRepository: IGenericRepository<Product>
 {
-    Task<List<Product>> GetProductsWithDetails();
+    Task<List<Product>> GetAllProducts();
+    Task<Product> GetProductById(int productId);
 }

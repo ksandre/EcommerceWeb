@@ -1,4 +1,7 @@
-﻿using Ecommerce.Application.Features.Currency.Queries.GetAllProducts;
+﻿using Ecommerce.Application.Features.Product.Commands.CreateProduct;
+using Ecommerce.Application.Features.Product.Commands.DeleteProduct;
+using Ecommerce.Application.Features.Product.Queries.GetAllProducts;
+using Ecommerce.Application.Features.Product.Queries.Shared;
 using Ecommerce.Domain.Product;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -18,23 +21,31 @@ namespace Ecommerce.Controllers
         }
 
         // GET: api/<ProductsController>
-        [HttpGet]
+        [HttpGet("[action]")]
         public async Task<List<ProductDto>> GetAllProducts()
         {
-            var products = await _mediator.Send(new GetProductsQuery());
+            var products = await _mediator.Send(new GetAllProductsQuery());
             return products;
         }
 
         // GET api/<ProductsController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("[action]/{productId}")]
+        public async Task<ProductDto> GetProduct(int productId)
         {
-            return "value";
+            var products = await _mediator.Send(new GetProductQuery(productId));
+            return products;
         }
 
         // POST api/<ProductsController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("[action]")]
+        public async Task<ActionResult> AddProduct(CreateProductRequest createProductRequest)
+        {
+            var response = await _mediator.Send(createProductRequest);
+            return CreatedAtAction(nameof(GetProduct), new { productId = response });
+        }
+
+        [HttpPost("[action]")]
+        public async Task AddProducts([FromBody] string value)
         {
         }
 
@@ -45,9 +56,12 @@ namespace Ecommerce.Controllers
         }
 
         // DELETE api/<ProductsController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("[action]/{productId}")]
+        public async Task<ActionResult> DeleteProduct(int productId)
         {
+            var command = new DeleteProductRequest(productId);
+            await _mediator.Send(command);
+            return NoContent();
         }
     }
 }

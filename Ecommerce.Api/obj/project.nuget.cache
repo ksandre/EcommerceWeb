@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "mcMWnE1rxO1tGaL5FvUt0yJcDmNfncU+IDDCAPkQZlO/n24/hJdAXFE0UroHPX5rpldB5fTXkhjEy7bdpYeprQ==",
+  "dgSpecHash": "TYCtHEz1dW2lYdqnxFy6wuSChzxbDHl+Wqssh/4cVWEk/NBvIkp1Ns1kA7wRcvUt/lck1hcc+2tEu2O3M+gz0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Api\\Ecommerce.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aleksandre\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Aleksandre\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Aleksandre\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\Aleksandre\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.2\\fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "C:\\Users\\Aleksandre\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Aleksandre\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
     "C:\\Users\\Aleksandre\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

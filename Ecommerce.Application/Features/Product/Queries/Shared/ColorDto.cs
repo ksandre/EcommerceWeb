@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Ecommerce.Application.Features.Currency.Queries.GetAllProducts;
+namespace Ecommerce.Application.Features.Product.Queries.Shared;
 
 public class ColorDto
 {

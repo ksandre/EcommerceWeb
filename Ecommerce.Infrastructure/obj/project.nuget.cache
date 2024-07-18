@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9/bp27KApsKJkNNpNUFfrZ+hlMXZTducPrY2rRMlTb+cCBcymBEHaAT67nzyPCc3M7X23txFHPPU7ymVxt0y7g==",
+  "dgSpecHash": "xrUrTSj/qlFAWyA1zvEcuPxd4FivfqmyXRBYPX7sBD4h7Pd8je28Js3XpghlrdolKL2k0j2yfPPYO0r0lfXMjg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aleksandre\\Documents\\EcommerceWeb\\Ecommerce.Infrastructure\\Ecommerce.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Aleksandre\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\Aleksandre\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.2\\fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "C:\\Users\\Aleksandre\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
     "C:\\Users\\Aleksandre\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Aleksandre\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",

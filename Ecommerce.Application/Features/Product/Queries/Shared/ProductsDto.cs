@@ -1,6 +1,6 @@
 ﻿using Ecommerce.Domain.Product;
 
-namespace Ecommerce.Application.Features.Currency.Queries.GetAllProducts;
+namespace Ecommerce.Application.Features.Product.Queries.Shared;
 
 public class ProductDto
 {
