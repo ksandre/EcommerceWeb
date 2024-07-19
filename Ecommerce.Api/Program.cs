@@ -24,7 +24,7 @@ var app = builder.Build();
     app.UseSwaggerUI();
 //}
 
-app.UseCors();
+app.UseCors(options => options.WithOrigins("http://localhost:3000").AllowAnyHeader().WithMethods("GET", "POST").AllowCredentials());
 
 app.UseHttpsRedirection();
 
