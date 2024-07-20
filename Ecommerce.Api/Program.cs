@@ -19,7 +19,7 @@ builder.Services.AddSwaggerGen();
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("Open", policy =>
+    options.AddPolicy(MyAllowSpecificOrigins, policy =>
         policy.AllowAnyOrigin()
                 .AllowAnyHeader()
                 .AllowAnyMethod());
