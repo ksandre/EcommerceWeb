@@ -15,6 +15,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Open", policy =>
+        policy.AllowAnyOrigin() // Not recommended for production
+               .AllowAnyMethod()); // Also not recommended for production
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -24,7 +31,7 @@ var app = builder.Build();
     app.UseSwaggerUI();
 //}
 
-app.UseCors(options => options.WithOrigins("http://localhost:3000").AllowAnyHeader().WithMethods("GET", "POST").AllowCredentials());
+app.UseCors();
 
 app.UseHttpsRedirection();
 
