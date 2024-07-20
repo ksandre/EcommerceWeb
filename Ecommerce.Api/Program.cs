@@ -15,11 +15,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Not recommended for production
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("Open", policy =>
-        policy.AllowAnyOrigin() // Not recommended for production
-               .AllowAnyMethod()); // Also not recommended for production
+        policy.AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod());
 });
 
 var app = builder.Build();
